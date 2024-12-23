@@ -1,0 +1,9 @@
+class Laptop:
+    def _init_(self. brand. model)
+       pass
+    def laptop_info(self):
+         pass
+     
+laptop1 = Laptop("Dell", "XPS 15")
+laptop1.laptop_info()
+print(laptop1.laptop_info()
