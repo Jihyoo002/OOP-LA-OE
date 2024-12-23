@@ -1,0 +1,20 @@
+class Vehicle:
+    
+    def __init__(self, brand, model, fuelType):
+        self.brand = brand
+        self.model = model
+        self.fuelType = fuelType
+        
+    def describeVehicle(self):
+        print(f"{self.brand} {self.model} runs on {self.fuelType}")
+        
+class Car(Vehicle):
+    pass
+
+class Motorcycle(Vehicle):
+    pass
+
+firstCar = Car("BMW &", "Lambo", "Gasoline")
+firstCar.describeVehicle()
+secondMotor = Motorcycle("Harley Davidson &", "KYMCO", "Gasoline")
+secondMotor.describeVehicle()
