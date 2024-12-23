@@ -1,0 +1,14 @@
+class ml_hero():
+    def _init_ (self, name,basic_atk, role):
+        self.name = name
+        self.basic_atk = basic_atk
+        self.role = role
+mm1=ml_hero("Diggie", 175 ,"Support")  
+mm2=ml_hero("Mathilda", 200,"Support")  
+
+print(mm1. name)
+print(mm1.basic_atk)
+print(mm1.role)
+print(mm2.name)
+print(mm2.basic_atk)
+print(mm2.role
