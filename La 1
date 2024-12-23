@@ -1,0 +1,5 @@
+class mobile_Legends():
+     Hero_Name= "Diggie"
+
+ml= mobile_Legends
+print(ml.Hero_Name,"Itlognasumasabog")
