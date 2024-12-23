@@ -1,0 +1,11 @@
+1-class Adobo:
+def _init_(self, baboy, sibuyas, bawang, toyo):
+self. baboy = baboy
+self. sibuyas = sibuyas
+self. bawang = bawang
+self. toyo toyo
+def_str_(self):
+return "My Adobong baboy with: (self._baboy), (self._sibuyas), (self
+bawang) and (self._toyo)
+adobong baboy Adobo (liempo", "hiniwang sibuyas", "hiniwang bawang", "toyo")
+print(adobong_baboy)
