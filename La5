@@ -1,0 +1,16 @@
+class ml_hero():
+    def _init_ (self, name,basic_atk, role):
+        self.name = name
+        self.basic_atk = basic_atk
+        self.role = role
+
+ 
+    def akoto(self):
+        return f"{self.name} is a {self.role} hero "
+    def __str__(self):
+        return self.name 
+mm1=ml_hero("Diggie", 175 ,"Support")  
+mm2=ml_hero("Mathilda", 200,"Support")  
+
+print(mm1.akoto())
+print(mm2.akoto())
