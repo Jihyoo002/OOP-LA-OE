@@ -1,0 +1,23 @@
+class Spiderman:
+def __init(selt, name, age): self.name name.lower()
+self.age age
+def describe spiderman(self):
+print("Name: (self.name.capitalize()). Age: (self.age)")
+class Andrew (Spiderman):
+def __init(self, name, age, movie title): super().init(name, age) self.movie_title movie_title
+def describe_spiderman(self):
+super().describe_spiderman() print("Movie Tities (self.movie_title}")
+class Tobey (Spiderman):
+definit (self, name, age, movie title): super().init(name, age) self.movie title movie title
+def describe spiderman(self):
+super().describe_spiderman() print("Movie Titles (self.movie title)")
+class Tom(Spiderman):
+definit (self, name, age, movie title): super().init(name, age) self.movie title movie title
+def describe_spiderman(self):
+super().describe_spiderman() print("Movie Titles (self.movie_title)")
+andrew spiderman Andrew("Andrew Garfield", 41, "The Amazing Spider-Man")
+andrew spiderman, describe spiderman()
+tobey_spiderman Tobey ("Tobey Maguire", 48, "Spider-Man")
+tobey spiderman.describe_spiderman()
+tom_spiderman Tom("Tom Rolland", 27, "Spider-Man: Homecoming")
+tom spiderman.describe_spiderman()
