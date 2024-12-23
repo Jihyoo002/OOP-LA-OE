@@ -1,0 +1,86 @@
+1 class Dog:
+2
+def __init__(self, name, breed, age):
+3
+self.name = name
+4
+self.breed = breed
+5
+self.age = age
+6
+7
+8
+9
+0
+1
+def bark(self):
+return f^{self.name} says Woof!"
+def speak(self):
+return f"Dog Name: (self.name), Breed: (self.breed). Age (self.age) years
+2
+3
+4 class Cat:
+5
+def _init(self, name, color, age):
+6
+self.name = name
+7
+self.color = color
+8
+self.age = age
+9
+0
+def meow(self):
+1
+return f"(self.name} says Meow!"
+2
+3
+def speak(self):
+4
+return f"Cat Name: {self.name) Color: (self.color), Age: self.age} years"
+5
+6
+7 class Bird:
+8
+def __init__(self, name, species, age):
+9
+self.name = name
+0
+self.species = species
+1
+self.age age
+2
+3
+def chirp(self):
+4
+return f"{self.name) says Chirp!"
+5
+6
+def speak(self):
+7
+return f"Bird Name: (self.name). Species: (self.species) Age: {self.age} years"
+8
+9
+0 class Fish:
+1 def __init__(self, name)
+2
+self.name = name
+3
+4
+def speak(self):
+5
+return f"(self.name} says
+6
+7
+8 def animal_sound(animal):
+9
+return animal.speak()
+0
+1
+2
+3 dog Dog("Buddy")
+4 cat Cat("Whiskers")
+5 bird Bird("Tweety")
+6 fish Fish("Nemo")
+7
+8 animals [dog, cat, bird, fish]
