@@ -1,0 +1,15 @@
+class Animal:
+    def __init__(self, name, type, can_swim):
+        self.name = name
+        self.type = type
+        self.can_swim = can_swim
+       
+    def Fish(Animal):
+        print(f"{self.name} is a {self.type} fish that {'can' if self.can_swim else 'cannot'} swim.")
+
+class Fist(Animal):
+    def __init__(self, name, type, can_swim):
+        super().__init__(name, type, can_swim)
+
+queen_anglerfish = Animal("Queen Anglerfish", "Disney Pixar Frozen", True)
+print(queen_anglerfish.can_swim)  
