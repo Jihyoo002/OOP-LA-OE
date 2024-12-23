@@ -1,0 +1,14 @@
+class Phone:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+    def describephones(self):
+        print(f"My phone is a {self.brand} {self.model}")
+
+class Android(Phone):
+    def __init__(self, brand, model):
+        Phone.__init__(self, brand, model)
+
+my_phone = Android("Samsung", "x6520")
+my_phone.describephones()
