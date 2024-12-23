@@ -1,0 +1,25 @@
+class Appliance:
+def __init(self, brand, model):
+self.brand brand
+self.model model
+def operate(self);
+print("Operating!")
+def info(self):
+print(f"Brand: [self.brand). Model: {self.model}")
+class Refrigerator (Appliance):
+def operate(self):
+print("Keeping food cold!")
+class Microwave(Appliance):
+def operate(self):
+print("Heating food!")
+class Washing Machine (Appliance):
+def operate(self):
+print("Washing clothes!")
+if_name"main":
+refrigerator - Refrigerator("LG", "LX123")
+microwave Microwave("Whirlpool". "MW200")
+washing_machine WashingMachine("Bosch". "M500")
+appliances [refrigerator, microwave, washing_machine]
+for appliance in appliances:
+appliance.info()
+appliance.operate()
