@@ -1,0 +1,12 @@
+class Car:
+    def _init_(self, brand. color):
+        self.brand = brand
+        self.brand = color
+car1 = Car("Mustang",  "Black")
+print(f"Car 1- Brand {car1.brand}. Color: {car1.color}")
+car1.color = "White"
+print(f"Car 1 - Updated Color: {car1.color}")
+car2 = Car("Mustang", "Black")
+print(f"Car 2 - Brand {car2.brand}, Color: {car2.color}")
+print(f"Car 1 - Brand {car2.brand}, Color: {car2.color}")
+print(f"Car 2 - Brand {car2.brand}, Color: {car2.color}")
